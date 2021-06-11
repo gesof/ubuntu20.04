@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+    web:
+    image: ubuntu:xenial
+    ports:
+      - "24:22"
+        #    volumes:
+        #- ./app:/usr/share/nginx/html
